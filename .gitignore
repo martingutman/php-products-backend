@@ -1,25 +1,14 @@
-# CakePHP 3
+/.env.local
+/.env.*.local
 
-/vendor/*
-/config/app.php
+/apps/*/*/var/
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+/apps/*/*/build/
+!/apps/*/*/build/supervisor/.gitkeep
 
-/logs/*
-!/logs/empty
+/vendor/
+.phpunit.result.cache
 
-# CakePHP 2
+/build
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+.php-cs-fixer.cache
